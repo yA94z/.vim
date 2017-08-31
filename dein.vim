@@ -28,8 +28,6 @@ call dein#add('vim-jp/vimdoc-ja')
 
 call dein#add('tpope/vim-endwise', {'on_ft' : 'ruby'})
 
-call dein#add('tpope/vim-dispatch')
-
 call dein#add('scrooloose/nerdtree')
 
 call dein#add('aklt/plantuml-syntax')
@@ -66,9 +64,5 @@ call dein#add('wakatime/vim-wakatime')
 call dein#add('racer-rust/vim-racer', {'on_ft' : 'rust'})
 
 call dein#add('thinca/vim-quickrun')
-
-call dein#add('othree/yajs.vim')
-
-call dein#add('maxmellon/vim-jsx-pretty')
 
 call dein#end()
