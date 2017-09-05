@@ -59,20 +59,6 @@ augroup QuickFixCmd
 	autocmd QuickFixCmdPost *grep* cwindow
 augroup END
 """"""""""""""""""""""""""""""
-" Crypt settings
-""""""""""""""""""""""""""""""
-"{{{
-if has('cryptv')
-	if v:version > 704 || v:version == 704 && has('patch401')
-		set cryptmethod=blowfish2
-	elseif v:version >= 703
-		set cryptmethod=blowfish
-	else
-		set cryptmethod=zip
-	endif
-endif
-"}}}
-""""""""""""""""""""""""""""""
 " tab settings
 """"""""""""""""""""""""""""""
 "{{{
