@@ -4,7 +4,9 @@ set notitle
 
 set showmatch
 
-set matchtime=1
+set matchtime=2
+
+set matchpairs& matchpairs+=<:>
 
 set vb t_vb= 
 
@@ -19,8 +21,6 @@ set ruler
 set autoindent
 
 set shiftwidth=4
-
-set matchpairs& matchpairs+=<:>
 
 set foldmethod=marker
 

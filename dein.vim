@@ -61,8 +61,6 @@ call dein#add('slim-template/vim-slim', {
 
 call dein#add('wakatime/vim-wakatime')
 
-call dein#add('racer-rust/vim-racer', {'on_ft' : 'rust'})
-
 call dein#add('thinca/vim-quickrun')
 
 call dein#end()
