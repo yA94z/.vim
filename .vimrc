@@ -12,6 +12,8 @@ set vb t_vb=
 
 set novisualbell
 
+set nrformats=
+
 set fdm=marker
 
 set tabstop=4
