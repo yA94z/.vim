@@ -2,6 +2,8 @@ filetype off
 
 set notitle
 
+set spell
+
 set showmatch
 
 set matchtime=2
