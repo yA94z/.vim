@@ -2,6 +2,11 @@ TRUE
 FALSE
 __FILE__
 __LINE__
+__TIME__
+__DATE__
+__STDC__
+__STDC_HOSTED__
+__STDC_VERSION__
 return
 static
 const
