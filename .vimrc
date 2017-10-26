@@ -40,10 +40,6 @@ set encoding=utf-8
 
 set laststatus=2
 
-syntax on
-
-colorscheme molokai
-
 set t_Co=256
 
 set pumheight=10
@@ -53,6 +49,10 @@ set noswapfile
 set clipboard+=autoselect
 
 set backspace=2
+
+syntax on
+
+colorscheme molokai
 
 inoremap {<Enter> {}<Left><CR><ESC><S-o>
 
@@ -113,7 +113,7 @@ map <silent> [Tag]p :tabprevious<CR>
 
 "}}}
 """"""""""""""""""""""""""""""
-" Dein
+"Dein
 """"""""""""""""""""""""""""""
 "{{{
 if filereadable(expand('$HOME/.vim/dein.vim'))
@@ -138,7 +138,7 @@ nnoremap <silent> <C-e> :NERDTreeToggle<CR>
 let g:NERDTreeIgnore = ['.[oa]$', '.(so)$', '.(tgz|gz|zip)$' ]
 "}}}
 """"""""""""""""""""""""""""""""""
-""neocomplete
+"neocomplete
 """"""""""""""""""""""""""""""""""
 "{{{
 " Disable AutoComplPop.
@@ -226,13 +226,6 @@ smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 if has('conceal')
   set conceallevel=2 concealcursor=i
 endif
-"}}}
-""""""""""""""""""""""""""""""
-"vim-racer
-"""""""""""""""""""""""""""""""""
-"{{{
-set hidden
-let g:racer_cmd = "$HOME/.cargo/bin/racer"
 "}}}
 """"""""""""""""""""""""""""""
 "vim-airline
