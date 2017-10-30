@@ -28,6 +28,8 @@ call dein#add('vim-jp/vimdoc-ja')
 
 call dein#add('tpope/vim-endwise', {'on_ft' : 'ruby'})
 
+call dein#add('zah/nim.vim')
+
 call dein#add('scrooloose/nerdtree')
 
 call dein#add('aklt/plantuml-syntax')

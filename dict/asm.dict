@@ -1,0 +1,8 @@
+_start
+bits
+section
+syscall
+global
+mov
+inc
+xor
