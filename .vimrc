@@ -157,6 +157,7 @@ let g:neocomplete#sources#dictionary#dictionaries = {
     \ 'ruby' : $HOME.'/.vim/dict/ruby.dict',
     \ 'c' : $HOME.'/.vim/dict/c.dict',
     \ 'asm' : $HOME.'/.vim/dict/asm.dict',
+    \ 'sh' : $HOME.'/.vim/dict/sh.dict',
     \ 'scheme' : $HOME.'/.gosh_completions'
     \ }
 
