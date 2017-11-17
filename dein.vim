@@ -28,7 +28,7 @@ call dein#add('vim-jp/vimdoc-ja')
 
 call dein#add('tpope/vim-endwise', {'on_ft' : 'ruby'})
 
-call dein#add('zah/nim.vim')
+call dein#add('zah/nim.vim', {'on_ft' : 'nim'})
 
 call dein#add('scrooloose/nerdtree')
 
@@ -62,7 +62,5 @@ call dein#add('slim-template/vim-slim', {
 			\ })
 
 call dein#add('wakatime/vim-wakatime')
-
-call dein#add('thinca/vim-quickrun')
 
 call dein#end()
