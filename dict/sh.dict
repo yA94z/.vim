@@ -1,3 +1,14 @@
+break
+continue
+eval
+exec
+exit
+export
 read
 readonly
-
+return
+set
+shift
+times
+trap
+unset
